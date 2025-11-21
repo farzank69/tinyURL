@@ -1,0 +1,28 @@
+{
+  "name": "tinylink-app",
+  "version": "1.0.0",
+  "description": "URL shortener application - Full stack React + Express",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd client && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd client && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "keywords": [
+    "url-shortener",
+    "react",
+    "nodejs",
+    "express",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

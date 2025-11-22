@@ -220,7 +220,7 @@ const Stats = () => {
         <h3 className="text-lg font-semibold mb-4">Quick Actions</h3>
         <div className="flex flex-wrap gap-3">
           <a
-            href={`https://tiny-link-silk.vercel.app/${linkData.code}`}
+            href={linkData.short_url}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors"

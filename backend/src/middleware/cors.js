@@ -5,7 +5,7 @@ const cors = require('cors');
  * Allows requests from the React frontend
  */
 const corsMiddleware = cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin:'https://tiny-link-silk.vercel.app/',
   credentials: true,
 });
 

@@ -9,7 +9,7 @@ const Header = () => {
             TinyLink
           </Link>
           <a
-            href={`${import.meta.env.VITE_API_URL.replace('/api', '')}/healthz`}
+            href={ `${import.meta.env.VITE_API_URL.replace('/api', '')}/healthz` }
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-500 hover:text-gray-700"
